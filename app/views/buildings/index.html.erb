@@ -1,0 +1,11 @@
+
+<ul>
+
+<% @buildings.each do |building| %>
+  <li>
+    <b><%= building.name %></b><br>
+    <%= building.number_of_floors_available %>
+  </li>
+<% end %>
+
+</ul>
